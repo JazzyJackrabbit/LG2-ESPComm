@@ -1,0 +1,30 @@
+LISEZ MOI: 
+
+
+1- installer node  +  npm install
+
+2- commande suivante: 
+	node <script cmd_*> <adresse ip>
+
+	(exemple:  node cmd_GET_ID 192.168.191.2)
+	(note: les fichiers à éxecuter sont ceux qui commencent par "cmd_")
+
+3- récupérer le retour du script js	
+
+
+//    on peut également utiliser cmd_START , cmd_INIT et cmd_STOP  pour une liste d'ip:
+//    exemple:   node cmd_START 192.168.191.*
+
+** ** ** LISTE DES COMMANDES ** ** **
+cmd_BLUE
+cmd_GET_BUFFER
+cmd_GET_ID
+cmd_GET_KILLERS
+cmd_INIT
+cmd_NO_COLOR
+cmd_RED
+cmd_START
+cmd_STOP
+** ** ** ** ** ** ** ** ** ** ** ** **
+
+
